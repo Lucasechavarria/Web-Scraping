@@ -1,0 +1,14 @@
+En primer lugar debemos instalar sql server en la pc, python y algun entorno adecuado, en mi caso uso Visual Studio Code.
+
+Luego debemos crear en SQL una base de datos llamada Precios_Casas (en mi caso es la base de datos en que trabajo la informacion, si usan otra bd deberan modificar ese nombre en el codigo)
+
+Una vez creada la base de datos se ejecutan las querys de SQL, que sirven para crear las tablas necesarias para el almacenamiento de datos
+
+Luego ejecutar la query de limpieza de datos, que creara un proceso almacenado que se ocupa de limpiar la informacion
+
+Con sql listo, ejecutamos el script de python que descarga, deposita la info de interes en sql, y ejecuta el proceso almacenado de limpieza
+
+Creamos un archivo de excel y seguimos los pasos de las capturas de pantalla de la carpeta 
+
+
+
