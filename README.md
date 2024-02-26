@@ -1,14 +1,6 @@
-En primer lugar debemos instalar sql server en la pc, python y algun entorno adecuado, en mi caso uso Visual Studio Code.
+Este es un proyecto donde intentaremos extraer informacion sobre el mercado de casas premoldeadas para evaluar su evolucion en el tiempo.
 
-Luego debemos crear en SQL una base de datos llamada Precios_Casas (en mi caso es la base de datos en que trabajo la informacion, si usan otra bd deberan modificar ese nombre en el codigo)
+Como primer paso creamos un modelo que permita extraer informacion de una pagina web, almacene la informacion extraida (limpieza incluida) y actualice automaticamente la informacion a un archivo de excel con el objetivo de graficar los precios a lo largo del tiempo.
 
-Una vez creada la base de datos se ejecutan las querys de SQL, que sirven para crear las tablas necesarias para el almacenamiento de datos
-
-Luego ejecutar la query de limpieza de datos, que creara un proceso almacenado que se ocupa de limpiar la informacion
-
-Con sql listo, ejecutamos el script de python que descarga, deposita la info de interes en sql, y ejecuta el proceso almacenado de limpieza
-
-Creamos un archivo de excel y seguimos los pasos de las capturas de pantalla de la carpeta 
-
-
+Para poner en marcha el proyecto hay que seguir las instrucciones del archivo con instrucciones para su uso
 
